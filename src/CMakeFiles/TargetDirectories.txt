@@ -1,0 +1,3 @@
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/mpags-cipher.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/edit_cache.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/rebuild_cache.dir
