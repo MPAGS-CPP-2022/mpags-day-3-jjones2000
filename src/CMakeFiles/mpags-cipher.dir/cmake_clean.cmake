@@ -1,12 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o.d"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o.d"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o.d"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o"
-  "CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o.d"
   "CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o"
   "CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o.d"
   "mpags-cipher"

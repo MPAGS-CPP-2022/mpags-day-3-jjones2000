@@ -86,81 +86,18 @@ CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/mpags-cipher.cpp -o CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.s
 
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o: CMakeFiles/mpags-cipher.dir/flags.make
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o: MPAGSCipher/TransformChar.cpp
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o: CMakeFiles/mpags-cipher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o -MF CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o.d -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o -c /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/TransformChar.cpp
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/TransformChar.cpp > CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.i
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/TransformChar.cpp -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.s
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o: CMakeFiles/mpags-cipher.dir/flags.make
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o: MPAGSCipher/ProcessCommandLine.cpp
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o: CMakeFiles/mpags-cipher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o -MF CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o.d -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o -c /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/ProcessCommandLine.cpp
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/ProcessCommandLine.cpp > CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.i
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/ProcessCommandLine.cpp -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.s
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o: CMakeFiles/mpags-cipher.dir/flags.make
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o: MPAGSCipher/RunCaesarCipher.cpp
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o: CMakeFiles/mpags-cipher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o -MF CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o.d -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o -c /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/RunCaesarCipher.cpp
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/RunCaesarCipher.cpp > CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.i
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/RunCaesarCipher.cpp -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.s
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o: CMakeFiles/mpags-cipher.dir/flags.make
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o: MPAGSCipher/CaesarCipher.cpp
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o: CMakeFiles/mpags-cipher.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o -MF CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o.d -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o -c /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CaesarCipher.cpp
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CaesarCipher.cpp > CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.i
-
-CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CaesarCipher.cpp -o CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.s
-
 # Object files for target mpags-cipher
 mpags__cipher_OBJECTS = \
-"CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o" \
-"CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o" \
-"CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o" \
-"CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o" \
-"CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o"
+"CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o"
 
 # External object files for target mpags-cipher
 mpags__cipher_EXTERNAL_OBJECTS =
 
 mpags-cipher: CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o
-mpags-cipher: CMakeFiles/mpags-cipher.dir/MPAGSCipher/TransformChar.cpp.o
-mpags-cipher: CMakeFiles/mpags-cipher.dir/MPAGSCipher/ProcessCommandLine.cpp.o
-mpags-cipher: CMakeFiles/mpags-cipher.dir/MPAGSCipher/RunCaesarCipher.cpp.o
-mpags-cipher: CMakeFiles/mpags-cipher.dir/MPAGSCipher/CaesarCipher.cpp.o
 mpags-cipher: CMakeFiles/mpags-cipher.dir/build.make
+mpags-cipher: MPAGSCipher/libMPAGSCipher.a
 mpags-cipher: CMakeFiles/mpags-cipher.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable mpags-cipher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable mpags-cipher"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mpags-cipher.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

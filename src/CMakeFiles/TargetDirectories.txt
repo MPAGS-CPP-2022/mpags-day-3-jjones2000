@@ -1,3 +1,11 @@
 /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/mpags-cipher.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/test.dir
 /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/edit_cache.dir
 /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles/rebuild_cache.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CMakeFiles/MPAGSCipher.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CMakeFiles/test.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CMakeFiles/edit_cache.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/MPAGSCipher/CMakeFiles/rebuild_cache.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/Testing/CMakeFiles/test.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/Testing/CMakeFiles/edit_cache.dir
+/home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/Testing/CMakeFiles/rebuild_cache.dir

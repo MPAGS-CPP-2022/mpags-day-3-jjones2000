@@ -100,14 +100,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/Testing//CMakeFiles/progress.marks
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Testing/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Testing/clean
 .PHONY : clean
 
 # The main clean target
@@ -116,68 +116,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Testing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Testing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named mpags-cipher
-
-# Build rule for target.
-mpags-cipher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mpags-cipher
-.PHONY : mpags-cipher
-
-# fast build rule for target.
-mpags-cipher/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpags-cipher.dir/build.make CMakeFiles/mpags-cipher.dir/build
-.PHONY : mpags-cipher/fast
-
-#=============================================================================
-# Target rules for targets named MPAGSCipher
-
-# Build rule for target.
-MPAGSCipher: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 MPAGSCipher
-.PHONY : MPAGSCipher
-
-# fast build rule for target.
-MPAGSCipher/fast:
-	$(MAKE) $(MAKESILENT) -f MPAGSCipher/CMakeFiles/MPAGSCipher.dir/build.make MPAGSCipher/CMakeFiles/MPAGSCipher.dir/build
-.PHONY : MPAGSCipher/fast
-
-mpags-cipher.o: mpags-cipher.cpp.o
-.PHONY : mpags-cipher.o
-
-# target to build an object file
-mpags-cipher.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpags-cipher.dir/build.make CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.o
-.PHONY : mpags-cipher.cpp.o
-
-mpags-cipher.i: mpags-cipher.cpp.i
-.PHONY : mpags-cipher.i
-
-# target to preprocess a source file
-mpags-cipher.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpags-cipher.dir/build.make CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.i
-.PHONY : mpags-cipher.cpp.i
-
-mpags-cipher.s: mpags-cipher.cpp.s
-.PHONY : mpags-cipher.s
-
-# target to generate assembly for a file
-mpags-cipher.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mpags-cipher.dir/build.make CMakeFiles/mpags-cipher.dir/mpags-cipher.cpp.s
-.PHONY : mpags-cipher.cpp.s
 
 # Help Target
 help:
@@ -188,11 +138,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... MPAGSCipher"
-	@echo "... mpags-cipher"
-	@echo "... mpags-cipher.o"
-	@echo "... mpags-cipher.i"
-	@echo "... mpags-cipher.s"
 .PHONY : help
 
 
@@ -204,6 +149,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/joseph/Desktop/mpags/cpp/mpags-day-3-jjones2000/src && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
